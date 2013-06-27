@@ -89,7 +89,7 @@ object Curl{
               }
             },
             "from": 0,
-            "size": 5000,
+            "size": 2000,
             "sort": [],
             "facets": {}
           }
@@ -120,9 +120,9 @@ object Curl{
 
     //printList(userHashtags)
     userHashtags = userHashtags.map(_.toLowerCase.trim)
-    val counts = {
+    val counts: Seq[(String, Int)] = {
       userHashtags.groupBy(identity).mapValues(_.size)
-    }
-
+    }.toSeq.sortBy(_._2)
+    for((word, count) <- counts) println("%s\t%d".format(word, count))
   }
 }
