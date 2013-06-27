@@ -7,7 +7,9 @@ object Curl{
   def printList(args: List[_]): Unit = {
     args.foreach(println)
   }
-  def concat(components: List[Option[String]]) = components.flatten.mkString(" ")
+  def concat(strings: List[String]): String = (strings filter {
+    _.nonEmpty
+  }).mkString(", ")
   def main(args: Array[String]) {
      val result = Http.postData("http://localhost:8080/twitter_mentioned_hash/for_hashtag/_search",
                 """{
@@ -30,7 +32,7 @@ object Curl{
                       }
                     },
                     "from": 0,
-                    "size": 500,
+                    "size": 5000,
                     "sort": [],
                     "facets": {}
                   }
@@ -41,9 +43,9 @@ object Curl{
       .option(HttpOptions.readTimeout(5000))
       .asString
 
-    var userIDs: List[Int] = List[Int]()
-    val json: Option[Any] = JSON.parseFull(result)
-    val records:List[Map[String,Any]] = json.get.asInstanceOf[Map[String, Any]]
+    var userIDs: List[String] = List[String]()
+    var json: Option[Any] = JSON.parseFull(result)
+    var records:List[Map[String,Any]] = json.get.asInstanceOf[Map[String, Any]]
                                   .get("hits").get.asInstanceOf[Map[String, Any]]
                                   .get("hits").get.asInstanceOf[List[Map[String,Any]]]
     for (record <- records) {
@@ -52,11 +54,14 @@ object Curl{
                                            .get("user").get.asInstanceOf[Map[String,Double]]
                                            .get("id").get.toInt
 
-      userIDs = userID ::userIDs
+      userIDs = userID.toString() ::userIDs
     }
     var userHashtags: List[String] = List[String]()
-    for (userID <- userIDs) {
-      val query =  """{
+
+    val strOfIDs = concat(userIDs)
+
+
+    val query =  """{
             "partial_fields": {
               "partial1": {
                 "include": [
@@ -76,30 +81,30 @@ object Curl{
                 },
                 "must": [
                   {
-                    "term": {
-                      "for_hashtag.user.id": %s}
+                    "terms": {
+                      "for_hashtag.user.id":[ %s ]}
                   }
                 ],
                 "should": []
               }
             },
             "from": 0,
-            "size": 100,
+            "size": 5000,
             "sort": [],
             "facets": {}
           }
-                   """.format(userID.toString())
+                   """.format(strOfIDs)
       println(query )
       val userRes = Http.postData("http://localhost:8080/twitter_mentioned_hash/for_hashtag/_search",
        query)
         .header("Content-Type", "application/json")
         .header("Charset", "UTF-8")
         .option(HttpOptions.connTimeout(1000))
-        .option(HttpOptions.readTimeout(5000))
+        .option(HttpOptions.readTimeout(50000))
         .asString
 
-      val json: Option[Any] = JSON.parseFull(userRes)
-      val records:List[Map[String,Any]] = json.get.asInstanceOf[Map[String, Any]]
+      json = JSON.parseFull(userRes)
+      records = json.get.asInstanceOf[Map[String, Any]]
         .get("hits").get.asInstanceOf[Map[String, Any]]
         .get("hits").get.asInstanceOf[List[Map[String,Any]]]
       for (record <- records) {
@@ -113,7 +118,11 @@ object Curl{
         }
       }
 
-      }
-    printList(userHashtags)
+    //printList(userHashtags)
+    userHashtags = userHashtags.map(_.toLowerCase.trim)
+    val counts = {
+      userHashtags.groupBy(identity).mapValues(_.size)
+    }
+
   }
 }
