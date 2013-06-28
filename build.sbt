@@ -14,7 +14,7 @@
 // limitations under the License.
 // 
 // 
-
+import AssemblyKeys._
 name := "Scala SBT Template"
 
 version := "0.1.0"
@@ -31,8 +31,13 @@ libraryDependencies ++= {
   	)
 }
 
+
+assemblySettings
+
+jarName in assembly := "Curl.jar"
+
 // if you have more than one main method, you can specify which is used when typing 'run' in sbt
-// mainclass := Some("com.mycode.App")
+mainClass := Some("com.mycode.Curl")
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
                 "releases"        at "http://oss.sonatype.org/content/repositories/releases"
