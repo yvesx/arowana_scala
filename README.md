@@ -22,7 +22,7 @@ in this case   "org.scalaj" %% "scalaj-http" % "0.3.2" from     https://github.c
 13. configure some jdk1.6 (doesn't seem to matter..)
 14. Make again and get error about production/test same output path
 15. in Project Structure button, under modules then paths tab. make the paths different.
-16. should work.16. should work.
+16. should work.
 To export a standalone jar:
 17. include the line
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.9.0")
@@ -34,3 +34,14 @@ in build.sbt so the jar knows where to enter the program.
 then type assembly to generate the jar
 20. if you change project/plugin.sbt make sure
 [error] Error parsing expression.  Ensure that settings are separated by blank lines.
+TO INCLUDE scala-redis
+21. copy source files from https://github.com/debasishg/scala-redis and append accordingly to currently project
+22. modify project/ScalaRedisProject.scala, which is copied over from scala-redis:
+change
+  lazy val root = Project("RedisProject", file(".")) settings(coreSettings : _*)
+to
+  lazy val root = Project("arowana_scala", file(".")) settings(coreSettings : _*)
+23. to update scala compiler for current project:
+  start a new Scala project and enter scala hom directory and set it global.
+  then go back to current project and change ur scala compiler
+24. update library dependency in project/Build.scala and build.sbt: apparently 2.9 and 2.10 have different dependency formats
