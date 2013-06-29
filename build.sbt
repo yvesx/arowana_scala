@@ -15,20 +15,21 @@
 // 
 // 
 import AssemblyKeys._
-name := "Scala SBT Template"
+name := "Arowana Scala"
 
 version := "0.1.0"
 
-scalaVersion := "2.9.1"
+scalaVersion := "2.10.2"
 
 organization := "com.mycode"
 
 libraryDependencies ++= {
   	Seq(
-		    "org.specs2" %% "specs2" % "1.12.1" % "test",
-    		"org.scalatest" %% "scalatest" % "1.7.1" % "test",
-            "org.scalaj" %% "scalaj-http" % "0.3.2"
-  	)
+		    "org.specs2" %% "specs2" % "2.1-SNAPSHOT" % "test",
+    		"org.scalatest" % "scalatest_2.10" % "1.9.1" % "test",
+            "org.scalaj" %% "scalaj-http" % "0.3.7",
+           "com.typesafe" % "config" % "1.0.1"
+            	)
 }
 
 
@@ -40,7 +41,8 @@ jarName in assembly := "Curl.jar"
 mainClass := Some("com.mycode.Curl")
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
-                "releases"        at "http://oss.sonatype.org/content/repositories/releases"
+                "releases"        at "http://oss.sonatype.org/content/repositories/releases",
+                "typesafe repo" at "http://repo.typesafe.com/typesafe/releases/"
                 )
  
 scalacOptions ++= Seq("-unchecked", "-deprecation")
@@ -64,11 +66,11 @@ scalacOptions ++= Seq("-unchecked", "-deprecation")
 	// jettyConfFiles <<= jettyConfFiles(_.copy(env = Some(file(".") / "src" / "test" / "resources" / "jetty.xml" asFile)))
 	
 		// needed to stop a clash between slf4j-log4j12 and logback-classic
-	// ivyXML := <dependencies> 
-    				// <dependency org="eu.medsea.mimeutil" name="mime-util" rev="2.1.3" > 
-      					// <exclude module="slf4j-log4j12" /> 
-    				// </dependency> 
-  				// </dependencies> 
+	// ivyXML := <dependencies>
+    				// <dependency org="eu.medsea.mimeutil" name="mime-util" rev="2.1.3" >
+      					// <exclude module="slf4j-log4j12" />
+    				// </dependency>
+  				// </dependencies>
   
 // add compile dependencies on some dispatch modules
 // libraryDependencies ++= Seq(
@@ -125,7 +127,7 @@ scalacOptions ++= Seq("-unchecked", "-deprecation")
 // resolvers ++= Seq("name" at "url")
 
 // define the repository to publish to
-// publishTo := Some("name" at "url")
+ publishTo := Some("name" at "url")
 
 // set Ivy logging to be at the highest level
 // ivyLoggingLevel := UpdateLogging.Full
