@@ -22,4 +22,15 @@ in this case   "org.scalaj" %% "scalaj-http" % "0.3.2" from     https://github.c
 13. configure some jdk1.6 (doesn't seem to matter..)
 14. Make again and get error about production/test same output path
 15. in Project Structure button, under modules then paths tab. make the paths different.
-16. should work.
+16. should work.16. should work.
+To export a standalone jar:
+17. include the line
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.9.0")
+to project/plugins.sbt
+18. IMPORTANT uncomment the line
+mainClass := Some("com.mycode.Curl")
+in build.sbt so the jar knows where to enter the program.
+19. in the project directory, run ./sbt
+then type assembly to generate the jar
+20. if you change project/plugin.sbt make sure
+[error] Error parsing expression.  Ensure that settings are separated by blank lines.
