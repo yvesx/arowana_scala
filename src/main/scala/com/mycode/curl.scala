@@ -1,7 +1,13 @@
 //simple curl
+/*
+* arguments:
+* <host_and_path> http://localhost:8080/twitter_mentioned_hash/for_hashtag/_search
+* <hashtag_to_search> nba
+* <size> 1000*/
 package com.mycode
 import scalaj.http.{HttpOptions, Http}
 import scala.util.parsing.json._
+import com.redis._
 
 object Curl{
   def printList(args: List[_]): Unit = {
@@ -11,7 +17,24 @@ object Curl{
     _.nonEmpty
   }).mkString(", ")
   def main(args: Array[String]) {
-     val result = Http.postData("http://localhost:8080/twitter_mentioned_hash/for_hashtag/_search",
+
+     //Redis stuff
+     val r = new RedisClient("localhost", 6379)
+     //println(r)
+     var affinity_cache_hit = 0
+
+     val host_and_path = args(0)
+     val hashtag_to_search = args(1)
+     val size = args(2)
+
+     val affinities = r.get("%s:affinities".format(hashtag_to_search))
+     if (!affinities.isEmpty){
+       affinity_cache_hit = 1
+       // print results
+       println(affinities.get)
+       System.exit(0)
+     }
+     val result = Http.postData(host_and_path,
                 """{
                     "partial_fields": {
                       "partial1": {
@@ -23,7 +46,7 @@ object Curl{
                         "must": [
                           {
                             "term": {
-                              "for_hashtag.entities.hashtags.text": "nba"
+                              "for_hashtag.entities.hashtags.text": "%s"
                             }
                           }
                         ],
@@ -32,15 +55,15 @@ object Curl{
                       }
                     },
                     "from": 0,
-                    "size": 5000,
+                    "size": %s,
                     "sort": [],
                     "facets": {}
                   }
-                  """)
+                  """.format(hashtag_to_search , size))
       .header("Content-Type", "application/json")
       .header("Charset", "UTF-8")
       .option(HttpOptions.connTimeout(1000))
-      .option(HttpOptions.readTimeout(5000))
+      .option(HttpOptions.readTimeout(10000))
       .asString
 
     var userIDs: List[String] = List[String]()
@@ -56,11 +79,11 @@ object Curl{
 
       userIDs = userID.toString() ::userIDs
     }
-    var userHashtags: List[String] = List[String]()
+
 
     val strOfIDs = concat(userIDs)
 
-
+    var userHashtags: List[String] = List[String]()
     val query =  """{
             "partial_fields": {
               "partial1": {
@@ -89,18 +112,18 @@ object Curl{
               }
             },
             "from": 0,
-            "size": 2000,
+            "size": %s,
             "sort": [],
             "facets": {}
           }
-                   """.format(strOfIDs)
-      println(query )
-      val userRes = Http.postData("http://localhost:8080/twitter_mentioned_hash/for_hashtag/_search",
+                   """.format(strOfIDs , size)
+      //println(query )
+      val userRes = Http.postData(host_and_path,
        query)
         .header("Content-Type", "application/json")
         .header("Charset", "UTF-8")
         .option(HttpOptions.connTimeout(1000))
-        .option(HttpOptions.readTimeout(50000))
+        .option(HttpOptions.readTimeout(10000))
         .asString
 
       json = JSON.parseFull(userRes)
@@ -123,6 +146,13 @@ object Curl{
     val counts: Seq[(String, Int)] = {
       userHashtags.groupBy(identity).mapValues(_.size)
     }.toSeq.sortBy(_._2)
-    for((word, count) <- counts) println("%s\t%d".format(word, count))
+    var affinity_res: String = ""
+    for((word, count) <- counts) {
+      if (count > 10) {
+        affinity_res = "%s%s".format(affinity_res, "%s\t%d\n".format(word, count))
+      }
+    }
+    r.set("%s:affinities".format(hashtag_to_search), affinity_res)
+    println(affinity_res)
   }
 }
