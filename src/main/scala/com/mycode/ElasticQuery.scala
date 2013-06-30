@@ -1,5 +1,6 @@
 package com.mycode
-
+import scalaj.http.{HttpOptions, Http}
+import scala.util.parsing.json._
 /**
  * Created with IntelliJ IDEA.
  * User: yves
@@ -8,13 +9,14 @@ package com.mycode
  * To change this template use File | Settings | File Templates.
  */
 class ElasticQuery (
-  val host: String,
-  val index: String,
-  val mapping: String,
+  val host: String,          //  "http://localhost:8080"
+  val index: String,         //  "twitter_mentioned_hash"
+  val mapping: String,       //  "for_hashtag"
   val searchFields: String,  //  "term": {"entities.hashtags.text": "%s"}
   val selectFields: String,  //  "partial1": { "include": "user.id"}
-  val size: String
+  val size: String           // "1000"
   ) {
+   def endPoint: String = "%s/%s/%s/_search".format(host , index , mapping)
    def query: String = """{
                     "partial_fields": { %s },
                     "query": {
@@ -30,6 +32,20 @@ class ElasticQuery (
                     "size": %s,
                     "sort": [],
                     "facets": {}
-                  }
-                       """.format(selectFields , searchFields , size)
+                  }""".format(selectFields , searchFields , size)
+
+   def retrieveJSON(): String = {
+     Http.postData(endPoint, query)
+       .header("Content-Type", "application/json")
+       .header("Charset", "UTF-8")
+       .option(HttpOptions.connTimeout(1000))
+       .option(HttpOptions.readTimeout(10000))
+       .asString
+   }
+   def parseElasticHits(jsonString: String) = {
+     val records:List[Map[String,Any]] = JSON.parseFull(jsonString).get.asInstanceOf[Map[String, Any]]
+                                        .get("hits").get.asInstanceOf[Map[String, Any]]
+                                        .get("hits").get.asInstanceOf[List[Map[String,Any]]]
+
+   }
 }
