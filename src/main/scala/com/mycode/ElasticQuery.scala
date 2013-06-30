@@ -12,19 +12,18 @@ class ElasticQuery (
   val host: String,          //  "http://localhost:8080"
   val index: String,         //  "twitter_mentioned_hash"
   val mapping: String,       //  "for_hashtag"
-  val searchFields: String,  //  "term": {"entities.hashtags.text": "%s"}
-  val selectFields: String,  //  "partial1": { "include": "user.id"}
+  val must: String,  //  "[{\"term\": {\"entities.hashtags.text\": \"nba\"} }]"
+  val mustNot: String,
+  val partial_fields: String,  //  "{\"partial1\": { \"include\": \"user.id\"} }"
   val size: String           // "1000"
   ) {
    def endPoint: String = "%s/%s/%s/_search".format(host , index , mapping)
-   def query: String = """{
-                    "partial_fields": { %s },
+   def baseQuery: String = """{
+                    "partial_fields": %s,
                     "query": {
                       "bool": {
-                        "must": [
-                          { %s }
-                        ],
-                        "must_not": [],
+                        "must":  %s ,
+                        "must_not": %s,
                         "should": []
                       }
                     },
@@ -32,20 +31,23 @@ class ElasticQuery (
                     "size": %s,
                     "sort": [],
                     "facets": {}
-                  }""".format(selectFields , searchFields , size)
+                  }""".format(partial_fields , must , mustNot , size)
 
    def retrieveJSON(): String = {
-     Http.postData(endPoint, query)
+     Http.postData(endPoint, baseQuery)
        .header("Content-Type", "application/json")
        .header("Charset", "UTF-8")
        .option(HttpOptions.connTimeout(1000))
        .option(HttpOptions.readTimeout(10000))
        .asString
    }
-   def parseElasticHits(jsonString: String) = {
-     val records:List[Map[String,Any]] = JSON.parseFull(jsonString).get.asInstanceOf[Map[String, Any]]
+   def parseElasticHits(): Vector[Map[String,Any]] = {
+     val jsonString: String = retrieveJSON()
+     val records: Vector[Map[String,Any]] = JSON.parseFull(jsonString).get.asInstanceOf[Map[String, Any]]
                                         .get("hits").get.asInstanceOf[Map[String, Any]]
-                                        .get("hits").get.asInstanceOf[List[Map[String,Any]]]
+                                        .get("hits").get.asInstanceOf[Vector[Map[String,Any]]]
 
+     return records
    }
+
 }
