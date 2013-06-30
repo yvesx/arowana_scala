@@ -7,9 +7,18 @@ package com.mycode
  * Time: 9:32 PM
  * To change this template use File | Settings | File Templates.
  */
-class TwitterAffinity (val userQuery: ElasticQuery) {
-  def parseRecordsStringTW(): String = {
-    val records = query.parseElasticHits()
+class TwitterAffinity () {
+  def userQuery: ElasticQuery = new ElasticQuery(
+    host = "http://localhost:8080",
+    index = "twitter_mentioned_hash",
+    mapping = "for_hashtag",
+    must = "[{\"term\": {\"entities.hashtags.text\": \"nba\"} }]",
+    mustNot = "[]",
+    partial_fields = "{\"partial1\": { \"include\": \"user.id\"} }",
+    size = "1000"
+  )
+  def parseUsers(): String = {
+    val records = userQuery.parseElasticHits()
     var userIDs: Vector[String] = Vector[String]()
     for (record <- records) {
       val userID:String = record.get("fields").get.asInstanceOf[Map[String,Any]]
@@ -22,39 +31,30 @@ class TwitterAffinity (val userQuery: ElasticQuery) {
     return com.mycode.Utilities.concat(userIDs,",")
   }
 
-  def constructAffinityQuery(): String = {
-    val query =  """{
-            "partial_fields": {
-              "partial1": {
-                "include": [
-                  "user.id",
-                  "entities.hashtags.text"
-                ]
-              }
-            },
-            "filter": {
-              "bool": {
-                "must_not": {
-                  "missing": {
-                    "field": "entities.hashtags.text",
-                    "existence": true,
-                    "null_value": true
-                  }
-                },
-                "must": [
-                  {
-                    "terms": {
-                      "for_hashtag.user.id":[ %s ]}
-                  }
-                ],
-                "should": []
-              }
-            },
-            "from": 0,
-            "size": %s,
-            "sort": [],
-            "facets": {}
-          }
-                 """.format(strOfIDs , size)
+  def affQuery: ElasticQuery = new ElasticQuery(
+    host = userQuery.host,
+    index = userQuery.index,
+    mapping = userQuery.mapping,
+    must = """[ { "terms": { "for_hashtag.user.id":[ %s ]} } ]""".format(parseUsers()),
+    mustNot = """{ "missing": { "field": "entities.hashtags.text", "existence": true, "null_value": true } }""",
+    partial_fields = """{"partial1": { "include": [ "user.id", "entities.hashtags.text"]}}""",
+    size = userQuery.size
+  )
+
+  def parseAffinities(): String = {
+    val records = affQuery.parseElasticHits()
+    var userHashtags: Vector[String] = Vector[String]()
+    for (record <- records) {
+      val tags:List[Map[String,String]] = record.get("fields").get.asInstanceOf[Map[String,Any]]
+        .get("partial1").get.asInstanceOf[Map[String,Any]]
+        .get("entities").get.asInstanceOf[Map[String,Any]]
+        .get("hashtags").get.asInstanceOf[List[Map[String,String]]]
+
+      for (tag <- tags) {
+        userHashtags = userHashtags :+ tag.get("text").get
+      }
+    }
+
   }
+
 }
