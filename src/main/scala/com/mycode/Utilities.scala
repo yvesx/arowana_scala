@@ -8,7 +8,7 @@ package com.mycode
  * To change this template use File | Settings | File Templates.
  */
 object Utilities {
-  def printList(args: List[_]): Unit = {
+  def printSeq(args: Seq[_]): Unit = {
     args.foreach(println)
   }
   def concat(strings: Vector[String],delim: String): String = (strings filter {
