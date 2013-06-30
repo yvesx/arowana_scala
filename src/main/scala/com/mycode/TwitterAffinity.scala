@@ -41,7 +41,7 @@ class TwitterAffinity () {
     size = userQuery.size
   )
 
-  def parseAffinities(): String = {
+  def parseAffinities(): Vector[String] = {
     val records = affQuery.parseElasticHits()
     var userHashtags: Vector[String] = Vector[String]()
     for (record <- records) {
@@ -54,7 +54,11 @@ class TwitterAffinity () {
         userHashtags = userHashtags :+ tag.get("text").get
       }
     }
-
+    return userHashtags
   }
 
+  def mapReduceAffinities: Seq[(String, Int)] =
+    parseAffinities().map(_.toLowerCase.trim).groupBy(identity).mapValues(_.size).toSeq.sortBy(_._2)
+
+  def printAffinities: Unit = com.mycode.Utilities.printSeq(mapReduceAffinities)
 }
