@@ -5,8 +5,7 @@
 * <hashtag_to_search> nba
 * <size> 1000*/
 package com.mycode
-import scalaj.http.{HttpOptions, Http}
-import scala.util.parsing.json._
+
 import com.redis._
 
 object Curl{
