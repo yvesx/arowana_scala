@@ -18,20 +18,22 @@ class ElasticQuery (
   val size: String           // "1000"
   ) {
    def endPoint: String = "%s/%s/%s/_search".format(host , index , mapping)
-   def baseQuery: String = """{
-                    "partial_fields": %s,
-                    "query": {
-                      "bool": {
-                        "must":  %s ,
-                        "must_not": %s,
-                        "should": []
-                      }
-                    },
-                    "from": 0,
-                    "size": %s,
-                    "sort": [],
-                    "facets": {}
-                  }""".format(partial_fields , must , mustNot , size)
+   def baseQuery: String =
+     """{
+            "partial_fields": %s,
+            "filter": {
+              "bool": {
+                "must": %s,
+                "must_not": %s,
+                "should": []
+              }
+            },
+            "from": 0,
+            "size": %s,
+            "sort": [],
+            "facets": {}
+          }
+     """.format(partial_fields , must , mustNot , size)
 
    def retrieveJSON(): String = {
      Http.postData(endPoint, baseQuery)
