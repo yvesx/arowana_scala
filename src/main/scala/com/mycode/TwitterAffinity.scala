@@ -7,7 +7,7 @@ package com.mycode
  * Time: 9:32 PM
  * To change this template use File | Settings | File Templates.
  */
-class TwitterAffinity () {
+class TwitterAffinity () extends CacheableQuery {
   def userQuery: ElasticQuery = new ElasticQuery(
     host = "http://localhost:8080",
     index = "twitter_mentioned_hash",
