@@ -23,6 +23,8 @@ in this case   "org.scalaj" %% "scalaj-http" % "0.3.2" from     https://github.c
 14. Make again and get error about production/test same output path
 15. in Project Structure button, under modules then paths tab. make the paths different.
 16. should work.
+16.1. right-click on build.sbt file and select "Associate File type" and select Scala
+    if you don't see this option, then *.sbt is already associated.
 To export a standalone jar:
 17. include the line
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.9.0")
