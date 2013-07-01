@@ -39,6 +39,10 @@ class TwitterAffinity () extends CacheableQuery {
 
       userIDs = userIDs:+ userID
     }
+    //search cache first
+    val cache: Seq[(Any, Option[String])] = mgetZip(userIDs:_*)
+    ZipHits(cache)
+    ZipMiss(cache)
     return com.mycode.Utilities.concat(userIDs,",")
   }
 
