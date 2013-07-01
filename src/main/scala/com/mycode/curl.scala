@@ -21,7 +21,6 @@ object Curl{
      val r = new RedisClient("localhost", 6379)
      //println(r)
      var affinity_cache_hit = 0
-
      val host_and_path = args(0)
      val hashtag_to_search = args(1)
      val size = args(2)
