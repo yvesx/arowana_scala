@@ -11,7 +11,7 @@ object Utilities {
   def printSeq(args: Seq[_]): Unit = {
     args.foreach(println)
   }
-  def concat(strings: Vector[String],delim: String): String = (strings filter {
+  def concat(strings: Seq[String],delim: String): String = (strings filter {
     _.nonEmpty
   }).mkString(delim)
 }
