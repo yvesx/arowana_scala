@@ -39,8 +39,8 @@ class ElasticQuery (
      Http.postData(endPoint, baseQuery)
        .header("Content-Type", "application/json")
        .header("Charset", "UTF-8")
-       .option(HttpOptions.connTimeout(1000))
-       .option(HttpOptions.readTimeout(10000))
+       .option(HttpOptions.connTimeout(4000))
+       .option(HttpOptions.readTimeout(40000))
        .asString
    }
    def parseElasticHits(): List[Map[String,Any]] = {
