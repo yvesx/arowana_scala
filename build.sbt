@@ -129,6 +129,8 @@ scalacOptions ++= Seq("-unchecked", "-deprecation")
 // define the repository to publish to
  publishTo := Some("name" at "url")
 
+ test in assembly := {}
+
 // set Ivy logging to be at the highest level
 // ivyLoggingLevel := UpdateLogging.Full
 
