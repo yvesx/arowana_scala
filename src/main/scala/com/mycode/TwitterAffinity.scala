@@ -8,11 +8,14 @@ import com.mycode.Utilities._
  * Time: 9:32 PM
  * To change this template use File | Settings | File Templates.
  */
-class TwitterAffinity (val termKey: String) extends CacheableQuery {
+class TwitterAffinity (val termKey: String,
+                       val elasticHostPort: String,
+                       val redisHost: String,
+                       val redisPort: Int ) extends CacheableQuery {
 
   val r: RedisClient = new RedisClient("localhost",6379)
   val userQuery: ElasticQuery = new ElasticQuery(
-    host = "http://localhost:8080",
+    host = elasticHostPort,
     index = "twitter_mentioned_hash",
     mapping = "for_hashtag",
     must = "[{\"term\": {\"entities.hashtags.text\": \"%s\"} }]".format(termKey),
