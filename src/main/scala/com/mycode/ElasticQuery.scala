@@ -43,11 +43,12 @@ class ElasticQuery (
        .option(HttpOptions.readTimeout(10000))
        .asString
    }
-   def parseElasticHits(): Vector[Map[String,Any]] = {
+   def parseElasticHits(): List[Map[String,Any]] = {
      val jsonString: String = retrieveJSON()
-     val records: Vector[Map[String,Any]] = JSON.parseFull(jsonString).get.asInstanceOf[Map[String, Any]]
+     //println(jsonString)
+     val records: List[Map[String,Any]] = JSON.parseFull(jsonString).get.asInstanceOf[Map[String, Any]]
                                         .get("hits").get.asInstanceOf[Map[String, Any]]
-                                        .get("hits").get.asInstanceOf[Vector[Map[String,Any]]]
+                                        .get("hits").get.asInstanceOf[List[Map[String,Any]]]
 
      return records
    }
