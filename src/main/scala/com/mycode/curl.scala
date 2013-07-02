@@ -10,7 +10,8 @@ import com.redis._
 
 object Curl{
   def main(args: Array[String]) {
-    val ta: TwitterAffinity = new TwitterAffinity(args(0))
+    val ta: TwitterAffinity = new TwitterAffinity(termKey=args(0),elasticHostPort = args(1),
+                                                  redisHost =args(2),redisPort = args(3).toInt)
     ta.printAffinities
   }
 }
