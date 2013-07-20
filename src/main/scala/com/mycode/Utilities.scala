@@ -11,6 +11,9 @@ object Utilities {
   def printSeq(args: Seq[_]): Unit = {
     args.foreach(println)
   }
+  def mapReduceAffinities(findAffinities: Seq[String]): Seq[(String, Int)] = {
+    findAffinities.map(_.toLowerCase.trim).groupBy(identity).mapValues(_.size).toSeq.filter(_._2>2).sortBy(_._2)
+  }
   def concat(strings: Seq[String],delim: String): String = (strings filter {
     _.nonEmpty
   }).mkString(delim)

@@ -13,7 +13,7 @@ class TwitterAffinity (val termKey: String,
                        val redisHost: String,
                        val redisPort: Int ) extends CacheableQuery {
 
-  val r: RedisClient = new RedisClient("localhost",6379)
+  val r: RedisClient = new RedisClient(redisHost,redisPort)
   val userQuery: ElasticQuery = new ElasticQuery(
     host = elasticHostPort,
     index = "twitter_mentioned_hash",
@@ -89,8 +89,5 @@ class TwitterAffinity (val termKey: String,
     return userHashtags.asInstanceOf[List[String]]
   }
 
-  def mapReduceAffinities: Seq[(String, Int)] =
-    findAffinities.map(_.toLowerCase.trim).groupBy(identity).mapValues(_.size).toSeq.filter(_._2>2).sortBy(_._2)
-
-  def printAffinities: Unit = com.mycode.Utilities.printSeq(mapReduceAffinities)
+  def printAffinities: Unit = Utilities.printSeq(Utilities.mapReduceAffinities(findAffinities))
 }
