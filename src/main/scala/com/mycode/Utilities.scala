@@ -1,5 +1,6 @@
 package com.mycode
-
+import spray.json._
+import DefaultJsonProtocol._
 /**
  * Created with IntelliJ IDEA.
  * User: yves
@@ -17,6 +18,8 @@ object Utilities {
   def concat(strings: Seq[String],delim: String): String = (strings filter {
     _.nonEmpty
   }).mkString(delim)
+  def groupToJSON(groups: Seq[(String, Int)]): String = groups.toJson.prettyPrint
+
   def flatten[T](list: List[T]): List[T] = list match {
     case Nil => Nil
     case head :: tail => (head match {

@@ -190,62 +190,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe#config;1.0.1[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/yves/.ivy2/local/com.typesafe/config/1.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /Users/yves/.ivy2/local/com.typesafe/config/1.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;1.0.1: res=/Users/yves/.ivy2/local/com.typesafe/config/1.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mtypesafe repo: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: resource not reachable for com/typesafe#config;1.0.1: res=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: no ivy file found for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0msnapshots: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /com/typesafe/config/1.0.1/config-1.0.1.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	snapshots: resource not reachable for com/typesafe#config;1.0.1: res=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	snapshots: no ivy file found for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mreleases: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	releases: found md file for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom (1.0.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@323c28ab[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;1.0.1: tried /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
-[0m[[0mdebug[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp2314364935329922779sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.0.1!config.pom(pom.original) (207ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/yves/.ivy2/local/com.typesafe/config/1.0.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/yves/.ivy2/local/com.typesafe/config/1.0.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;1.0.1: res=/Users/yves/.ivy2/local/com.typesafe/config/1.0.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: resource not reachable for com/typesafe#config;1.0.1: res=http://repo.typesafe.com/typesafe/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /com/typesafe/config/1.0.1/config-1.0.1.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	snapshots: resource not reachable for com/typesafe#config;1.0.1: res=http://oss.sonatype.org/content/repositories/snapshots/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for com.typesafe#config;1.0.1; parsed=com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe#config;1.0.1 (resolved by releases): /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe#config;1.0.1 (resolved by releases): /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.1[0m
 [0m[[0mdebug[0m] [0m	checking com.typesafe#config;1.0.1 from releases against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe#config;1.0.1 from releases[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.1 in releases[0m
@@ -264,6 +215,115 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-json_2.10;1.2.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.spray#spray-json_2.10;1.2.5 (resolved by spray): /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.spray#spray-json_2.10;1.2.5 (resolved by spray): /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0m	checking io.spray#spray-json_2.10;1.2.5 from spray against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: io.spray#spray-json_2.10;1.2.5 from spray[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.10;1.2.5 in spray[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-scala_2.10;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.parboiled#parboiled-scala_2.10;1.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-scala_2.10;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-scala_2.10;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0m	checking org.parboiled#parboiled-scala_2.10;1.1.5 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.parboiled#parboiled-scala_2.10;1.1.5 from releases[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-scala_2.10;1.1.5 in releases[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.parboiled#parboiled-core;1.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-core;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-core;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0m	checking org.parboiled#parboiled-core;1.1.5 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.parboiled#parboiled-core;1.1.5 from releases[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-core;1.1.5 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala_2.10;0.1.0 [runtime][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala_2.10;0.1.0 of rootConf=runtime[0m
@@ -408,6 +468,79 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala_2.10;0.1.0 [test][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala_2.10;0.1.0 of rootConf=test[0m
@@ -555,6 +688,79 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->junit#junit;4.8.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of junit#junit;4.8.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve junit#junit;4.8.1[0m
@@ -619,200 +825,6 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;2.1-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.specs2#specs2_2.10;2.1-SNAPSHOT {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.specs2#specs2_2.10;2.1-SNAPSHOT: res=/Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: resource not reachable for org/specs2#specs2_2.10;2.1-SNAPSHOT: res=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: no ivy file found for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	snapshots: found md file for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom (2.1-SNAPSHOT)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@323c28ab[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.specs2/specs2_2.10/ivy-2.1-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2_2.10;2.1-SNAPSHOT (resolved by snapshots): /Users/yves/.ivy2/cache/org.specs2/specs2_2.10/ivy-2.1-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m	checking org.specs2#specs2_2.10;2.1-SNAPSHOT from snapshots against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#specs2_2.10;2.1-SNAPSHOT from snapshots[0m
-[0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;2.1-SNAPSHOT in snapshots[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-core_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-core_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.10;7.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-concurrent_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-concurrent_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-concurrent_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-concurrent_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-concurrent_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-effect_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-effect_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-effect_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-effect_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.1[0m
@@ -1133,6 +1145,79 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala_2.10;0.1.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
@@ -1339,6 +1424,79 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala_2.10;0.1.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
@@ -1492,6 +1650,79 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala_2.10;1.1.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->junit#junit;4.8.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of junit#junit;4.8.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->junit#junit;4.8.1 [test->runtime][0m
@@ -1536,129 +1767,6 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scalaz#scalaz-effect_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scalaz#scalaz-core_2.10;7.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
@@ -1808,7 +1916,7 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala_2.10;0.1.0 [pom][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala_2.10;0.1.0 of rootConf=pom[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 17[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  commons-pool#commons-pool depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
@@ -1828,29 +1936,10 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
-[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on junit#junit;4.7, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -1859,9 +1948,22 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
@@ -1884,16 +1986,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.0!akka-actor_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;0.3.7!scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/com.typesafe/config/bundles/config-1.0.1.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp3431198175374185702sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.0.1!config.jar(bundle) (432ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
@@ -1906,18 +2000,16 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.8.1!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10.0;2.0.M5!scalatest_2.10.0.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1-SNAPSHOT!specs2_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.0!scalaz-concurrent_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.2!slf4j-log4j12.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2376ms :: artifacts dl 464ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 983ms :: artifacts dl 31ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 10[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1936,8 +2028,18 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 compile produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/compile-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 10[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1956,8 +2058,18 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaj#scalaj-http_2.10;0.3.7 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 runtime produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/runtime-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  commons-pool#commons-pool depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
@@ -1979,30 +2091,10 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
-[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on junit#junit;4.7, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -2011,6 +2103,20 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 test produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 3[0m
@@ -2025,7 +2131,7 @@
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 provided produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 optional produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/optional-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 9[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -2044,6 +2150,16 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaj#scalaj-http_2.10;0.3.7 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : log4j#log4j;1.2.17 / Number of dependencies = 5[0m
@@ -2051,7 +2167,7 @@
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-log4j12;1.7.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : log4j#log4j;1.2.17[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 compile-internal produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/compile-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 10[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -2070,8 +2186,18 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaj#scalaj-http_2.10;0.3.7 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 runtime-internal produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/runtime-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 17[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  commons-pool#commons-pool depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
@@ -2093,30 +2219,10 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaj#scalaj-http_2.10 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
-[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on junit#junit;4.7, doesn't match junit#junit;4.8.1[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -2125,6 +2231,20 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.8.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on junit#junit;4.10, doesn't match junit#junit;4.8.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
@@ -2143,5 +2263,5 @@
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 docs produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala_2.10;0.1.0 pom produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala_2.10/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2376ms resolve - 464ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (983ms resolve - 31ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

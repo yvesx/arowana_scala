@@ -10,7 +10,7 @@
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-pool#commons-pool;1.6[0m
 [0m[[0minfo[0m] [0mResolving commons-pool#commons-pool;1.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12a518fc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fee5635[0m
 [0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/commons-pool/commons-pool/ivy-1.6.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
@@ -34,7 +34,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d591cc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f2a225b[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by public): /Users/yves/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
@@ -55,7 +55,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.10.2[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e006649[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13066a26[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.2 (resolved by sbt-chain): /Users/yves/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
@@ -76,7 +76,7 @@
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor_2.10;2.1.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.akka#akka-actor_2.10;2.1.0[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e536b73[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@328bdd6b[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.1.0.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.akka#akka-actor_2.10;2.1.0 (resolved by public): /Users/yves/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.1.0.xml[0m
@@ -97,7 +97,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.scalaj#scalaj-http_2.10;0.3.7 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;0.3.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60cb7d7c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@292898f5[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-0.3.7.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaj#scalaj-http_2.10;0.3.7 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-0.3.7.xml[0m
@@ -118,7 +118,7 @@
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe#config;1.0.1[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4657104d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cc75d38[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe#config;1.0.1 (resolved by releases): /Users/yves/.ivy2/cache/com.typesafe/config/ivy-1.0.1.xml[0m
@@ -135,6 +135,69 @@
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a06514b[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.spray#spray-json_2.10;1.2.5 (resolved by spray): /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.spray#spray-json_2.10;1.2.5 (resolved by spray): /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.2.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0m	checking io.spray#spray-json_2.10;1.2.5 from spray against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: io.spray#spray-json_2.10;1.2.5 from spray[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.10;1.2.5 in spray[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-scala_2.10;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@391ba64d[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-scala_2.10;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-scala_2.10;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0m	checking org.parboiled#parboiled-scala_2.10;1.1.5 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.parboiled#parboiled-scala_2.10;1.1.5 from releases[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-scala_2.10;1.1.5 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b155ce8[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-core;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.parboiled#parboiled-core;1.1.5 (resolved by releases): /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0m	checking org.parboiled#parboiled-core;1.1.5 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.parboiled#parboiled-core;1.1.5 from releases[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-core;1.1.5 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [runtime][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 of rootConf=runtime[0m
@@ -207,6 +270,39 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
@@ -278,6 +374,42 @@
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [test][0m
@@ -354,6 +486,39 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
@@ -425,6 +590,42 @@
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=test[0m
@@ -498,11 +699,47 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [test->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.10.0;2.0.M5[0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10.0;2.0.M5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52fb241d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23cf68e9[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalatest/scalatest_2.10.0/ivy-2.0.M5.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.10.0;2.0.M5 (resolved by public): /Users/yves/.ivy2/cache/org.scalatest/scalatest_2.10.0/ivy-2.0.M5.xml[0m
@@ -519,116 +756,11 @@
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;2.1-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@741bb804[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.specs2#specs2_2.10;2.1-SNAPSHOT: res=/Users/yves/.ivy2/local/org.specs2/specs2_2.10/2.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mtypesafe repo: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: resource not reachable for org/specs2#specs2_2.10;2.1-SNAPSHOT: res=http://repo.typesafe.com/typesafe/releases/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe repo: no ivy file found for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0msnapshots: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mdon't use cache for org.specs2#specs2_2.10;2.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	snapshots: found md file for org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/2.1-SNAPSHOT/specs2_2.10-2.1-SNAPSHOT.pom (2.1-SNAPSHOT)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@323c28ab[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.specs2/specs2_2.10/ivy-2.1-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2_2.10;2.1-SNAPSHOT (resolved by snapshots): /Users/yves/.ivy2/cache/org.specs2/specs2_2.10/ivy-2.1-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m	checking org.specs2#specs2_2.10;2.1-SNAPSHOT from snapshots against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#specs2_2.10;2.1-SNAPSHOT from snapshots[0m
-[0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;2.1-SNAPSHOT in snapshots[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c977c1f[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-core_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-core_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2670d85b[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-concurrent_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-concurrent_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-concurrent_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-concurrent_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-concurrent_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ef3436a[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-effect_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-effect_2.10;7.0.0 (resolved by releases): /Users/yves/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-effect_2.10;7.0.0 from releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-effect_2.10;7.0.0 from releases[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.0 in releases[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65067a13[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67099f71[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by releases): /Users/yves/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
@@ -649,7 +781,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e0340d1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@608069b9[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): /Users/yves/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
@@ -673,7 +805,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-log4j12;1.7.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.slf4j#slf4j-log4j12;1.7.2[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bb41390[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9d1649f[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.2.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-log4j12;1.7.2 (resolved by public): /Users/yves/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.2.xml[0m
@@ -694,7 +826,7 @@
 [0m[[0mdebug[0m] [0mloadData of log4j#log4j;1.2.17 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve log4j#log4j;1.2.17[0m
 [0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@543a2dec[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76dedd5c[0m
 [0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/yves/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	found ivy file in cache for log4j#log4j;1.2.17 (resolved by public): /Users/yves/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml[0m
@@ -785,6 +917,39 @@
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 of rootConf=compile-internal[0m
@@ -886,6 +1051,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile-internal->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.slf4j#slf4j-log4j12;1.7.2 [compile-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-log4j12;1.7.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
@@ -985,6 +1186,39 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
@@ -1056,6 +1290,42 @@
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 of rootConf=runtime-internal[0m
@@ -1131,6 +1401,42 @@
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [runtime-internal->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [test-internal][0m
@@ -1210,6 +1516,39 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
@@ -1281,6 +1620,42 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->commons-pool#commons-pool;1.6 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.6 of rootConf=test-internal[0m
@@ -1354,6 +1729,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [test->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test->runtime][0m
@@ -1364,50 +1775,6 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
@@ -1531,6 +1898,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->com.typesafe#config;1.0.1 [test-internal->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe#config;1.0.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->io.spray#spray-json_2.10;1.2.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of io.spray#spray-json_2.10;1.2.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-scala_2.10;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.parboiled#parboiled-core;1.1.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
@@ -1542,54 +1945,6 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10.0;2.0.M5 [test-internal->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10.0;2.0.M5 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test-internal->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.specs2#specs2_2.10;2.1-SNAPSHOT [test-internal->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;2.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-core_2.10;7.0.0 [test-internal->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-concurrent_2.10;7.0.0 [test-internal->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalaz#scalaz-effect_2.10;7.0.0 [test-internal->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0->org.scalatest#scalatest_2.10;1.9.1 [test-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
@@ -1651,7 +2006,7 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 [pom][0m
 [0m[[0mdebug[0m] [0mloadData of com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 of rootConf=pom[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1668,26 +2023,10 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -1695,6 +2034,17 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : log4j#log4j;1.2.17 / Number of dependencies = 5[0m
@@ -1710,11 +2060,11 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/yves/git/arowana_scala/target/resolution-cache/com.mycode/arowana-scala$sources_javadoc_2.10/0.1.0/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(src)[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
@@ -1729,72 +2079,115 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.0!akka-actor_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.0!akka-actor_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.0!akka-actor_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.0!akka-actor_2.10.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;0.3.7!scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;0.3.7!scalaj-http_2.10.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;0.3.7!scalaj-http_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;0.3.7!scalaj-http_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.1!config.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.1!config.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.1!config.jar(doc)[0m
+[0m[[0mdebug[0m] [0mspray: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	spray: downloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/srcs/spray-json_2.10-1.2.5-sources.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	spray: downloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp9055475533974748601sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.jar(src) (3297ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	spray: downloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/io.spray/spray-json_2.10/docs/spray-json_2.10-1.2.5-javadoc.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	spray: downloading http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp802934419913278472sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.spray.io/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.jar(doc) (10752ms)[0m
 [0m[[0mdebug[0m] [0mreleases: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/com.typesafe/config/jars/config-1.0.1.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp1803291230607215331sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.0.1!config.jar (398ms)[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/com.typesafe/config/srcs/config-1.0.1-sources.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp8916779581260031615sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.0.1!config.jar(src) (326ms)[0m
-[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/com.typesafe/config/docs/config-1.0.1-javadoc.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp8308674839615625296sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/com/typesafe/config/1.0.1/config-1.0.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.0.1!config.jar(doc) (327ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/docs/parboiled-scala_2.10-1.1.5-javadoc.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp5032874386566807685sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar(doc) (6731ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/jars/parboiled-scala_2.10-1.1.5.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp3136074525485480148sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar (3526ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-scala_2.10/srcs/parboiled-scala_2.10-1.1.5-sources.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp9110905744949731725sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala_2.10/1.1.5/parboiled-scala_2.10-1.1.5-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar(src) (2003ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.1.5-javadoc.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp4796996328033691315sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(doc) (6223ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.5-sources.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp9162284258455704908sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(src) (3703ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/yves/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.5.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/t8/tc5sfqtj307g2_xdsn40y6840000gn/T/ivytmp2487425144175717211sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar (3348ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10.0;2.0.M5!scalatest_2.10.0.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10.0;2.0.M5!scalatest_2.10.0.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10.0;2.0.M5!scalatest_2.10.0.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10.0;2.0.M5!scalatest_2.10.0.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1-SNAPSHOT!specs2_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1-SNAPSHOT!specs2_2.10.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1-SNAPSHOT!specs2_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.0!scalaz-concurrent_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.0!scalaz-concurrent_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.0!scalaz-concurrent_2.10.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.2!slf4j-log4j12.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.2!slf4j-log4j12.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.2!slf4j-log4j12.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.2!slf4j-log4j12.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 781ms :: artifacts dl 1145ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 644ms :: artifacts dl 39691ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 9[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1811,8 +2204,18 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 compile produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/compile-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 9[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1829,8 +2232,18 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 runtime produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/runtime-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 13[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1847,26 +2260,10 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -1874,6 +2271,17 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 test produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
@@ -1885,7 +2293,7 @@
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 provided produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 optional produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/optional-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 11[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1902,13 +2310,23 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : log4j#log4j;1.2.17 / Number of dependencies = 5[0m
 [0m[[0mdebug[0m] [0mSort done for : log4j#log4j;1.2.17[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-log4j12;1.7.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : log4j#log4j;1.2.17[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 compile-internal produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/compile-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 9[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1925,8 +2343,18 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 runtime-internal produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/runtime-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.6 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
@@ -1943,26 +2371,10 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scalaj#scalaj-http_2.10;0.3.7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;1.0.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;1.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;2.1-SNAPSHOT / Number of dependencies = 12[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2_2.10 depends on org.scala-lang#scala-reflect;2.10.2, doesn't match org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.spray#spray-json_2.10;1.2.5 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#spray-json_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-scala_2.10;1.1.5 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.parboiled#parboiled-core;1.1.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
@@ -1970,6 +2382,17 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.parboiled#parboiled-scala_2.10 depends on org.scala-lang#scala-library;2.10.1, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort done for : io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10.0;2.0.M5 / Number of dependencies = 18[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10.0 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10.0;2.0.M5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-log4j12;1.7.2 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : log4j#log4j;1.2.17 / Number of dependencies = 5[0m
@@ -1985,4 +2408,4 @@
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 docs produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for com.mycode#arowana-scala$sources_javadoc_2.10;0.1.0 pom produced in /Users/yves/git/arowana_scala/target/resolution-cache/reports/com.mycode-arowana-scala$sources_javadoc_2.10/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (781ms resolve - 1145ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (644ms resolve - 39691ms download)[0m

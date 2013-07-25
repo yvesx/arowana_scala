@@ -25,10 +25,11 @@ organization := "com.mycode"
 
 libraryDependencies ++= {
   	Seq(
-		    "org.specs2" %% "specs2" % "2.1-SNAPSHOT" % "test",
+      //"org.specs2" %% "specs2" % "2.1.1" % "test",
     		"org.scalatest" % "scalatest_2.10" % "1.9.1" % "test",
             "org.scalaj" %% "scalaj-http" % "0.3.7",
-           "com.typesafe" % "config" % "1.0.1"
+           "com.typesafe" % "config" % "1.0.1",
+           "io.spray" %%  "spray-json" % "1.2.5"
             	)
 }
 
@@ -42,7 +43,8 @@ mainClass := Some("com.mycode.Curl")
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
                 "releases"        at "http://oss.sonatype.org/content/repositories/releases",
-                "typesafe repo" at "http://repo.typesafe.com/typesafe/releases/"
+                "typesafe repo" at "http://repo.typesafe.com/typesafe/releases/" ,
+                 "spray" at "http://repo.spray.io/"
                 )
  
 scalacOptions ++= Seq("-unchecked", "-deprecation")

@@ -47,3 +47,4 @@ to
   start a new Scala project and enter scala hom directory and set it global.
   then go back to current project and change ur scala compiler
 24. update library dependency in project/Build.scala and build.sbt: apparently 2.9 and 2.10 have different dependency formats
+25. include scala spray: https://github.com/spray/spray-json
